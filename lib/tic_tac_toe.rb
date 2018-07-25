@@ -150,7 +150,7 @@ end
 
 
   def play
-    while !over?(board)
+    while !over?
      turn
     end
   end
