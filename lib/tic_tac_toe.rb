@@ -150,11 +150,11 @@ end
 
 
   def play
-    turn
+    while !over?(board)
+     turn
     if valid_move?
       move
     end
-    while !over?(board)
       turn
     end
   end
