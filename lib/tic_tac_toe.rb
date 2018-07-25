@@ -153,20 +153,13 @@ end
     while !over?
      turn
     end
-  end
+    if won?
+      puts "Congratulations #{winner(board)}!"
+     else
+      puts "Cat's Game!"
+    end
+  end  
 end
-
-
-
-
-
-
-#   if won?
-#     puts "Congratulations #{winner(board)}!"
-#    else
-#     puts "Cat's Game!"
-#   end
-# end
 
 
 
